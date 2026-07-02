@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .modelo-display {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 200px;
+        border-left: 8px solid #1a5276;
+        border-bottom: 3px solid #00bcd4;
+        position: relative;
+        }
+
+        .linea-amarilla-1 {
+        display: block;
+        width: 100%;
+        height: 6px;
+
+        background: #c8a800;
+        margin-top: 6px;
+        flex-shrink: 0;
+        }
+
+        .linea-amarilla-2 {
+        display: block;
+        width: 100%;
+        height: 4px;
+        background: #b8960a;
+        margin-top: 4px;
+        flex-shrink: 0;
+        }
+
+        .area-display {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        align-items: stretch;
+        }
+
+        .col-segmentos-display {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 16px;
+        padding: 8px 0;
+        }
+
+        .seg-display {
+        display: block;
+        width: 10px;
+        height: 30px;
+        background-color: #7b1fa2;
+        }
+    </style>
+</head>
+<body>
+    <div class="modelo-display">
+  <div class="linea-amarilla-1"></div>
+  <div class="linea-amarilla-2"></div>
+  <div class="area-display">
+    <div class="col-segmentos-display">
+      <div class="seg-display"></div>
+      <div class="seg-display"></div>
+      <div class="seg-display"></div>
+      <div class="seg-display"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
